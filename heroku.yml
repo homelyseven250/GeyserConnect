@@ -2,4 +2,4 @@ build:
   docker:
     web: docker/Dockerfile
 run:
-  web: run --name "geyser-c" -d --restart always -p 19132:19132/udp -p 19133:19133/udp -v $(pwd)/data:/gsc geyser-connect
+  web: java -jar target/GeyserConnect.jar
