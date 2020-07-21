@@ -1,1 +1,1 @@
-web: java -jar GeyserConnect.jar
+web: java -jar target/GeyserConnect.jar
